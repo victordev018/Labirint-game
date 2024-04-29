@@ -1,0 +1,52 @@
+[gd_scene load_steps=8 format=3 uid="uid://cc76g37ukpw0w"]
+
+[ext_resource type="Texture2D" uid="uid://bfhcj55akctvy" path="res://assets/Mini FX, Items & UI/Common Pick-ups/Wrapped_Presents (16 x 16).png" id="1_808d4"]
+[ext_resource type="Script" path="res://scripts/more_time.gd" id="1_uldgy"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_574e5"]
+size = Vector2(11, 9)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_p2hea"]
+atlas = ExtResource("1_808d4")
+region = Rect2(0, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_6nmr3"]
+atlas = ExtResource("1_808d4")
+region = Rect2(16, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_7vnvg"]
+atlas = ExtResource("1_808d4")
+region = Rect2(32, 0, 16, 16)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_xas4j"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_p2hea")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_6nmr3")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_7vnvg")
+}],
+"loop": true,
+"name": &"moreTime",
+"speed": 5.0
+}]
+
+[node name="moreTime" type="Area2D"]
+script = ExtResource("1_uldgy")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(105, 104)
+shape = SubResource("RectangleShape2D_574e5")
+
+[node name="animation" type="AnimatedSprite2D" parent="."]
+position = Vector2(105, 102)
+sprite_frames = SubResource("SpriteFrames_xas4j")
+animation = &"moreTime"
+autoplay = "moreTime"
+frame_progress = 0.737762
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]

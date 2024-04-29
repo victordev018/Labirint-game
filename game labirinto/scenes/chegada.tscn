@@ -1,0 +1,61 @@
+[gd_scene load_steps=9 format=3 uid="uid://7d4vvt0mpnjk"]
+
+[ext_resource type="Script" path="res://scripts/chegada.gd" id="1_0rvku"]
+[ext_resource type="Texture2D" uid="uid://b1bfjg0m1sca7" path="res://assets/Mini FX, Items & UI/Common Pick-ups/Heart_Spin (16 x 16).png" id="1_w8yfc"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_cptmn"]
+size = Vector2(7, 8)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_uhfp5"]
+atlas = ExtResource("1_w8yfc")
+region = Rect2(0, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_gce2c"]
+atlas = ExtResource("1_w8yfc")
+region = Rect2(16, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_acc8k"]
+atlas = ExtResource("1_w8yfc")
+region = Rect2(32, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_u6c2g"]
+atlas = ExtResource("1_w8yfc")
+region = Rect2(48, 0, 16, 16)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_otemy"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_uhfp5")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_gce2c")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_acc8k")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_u6c2g")
+}],
+"loop": true,
+"name": &"chegada",
+"speed": 5.0
+}]
+
+[node name="chegada" type="Area2D"]
+scale = Vector2(2, 2)
+collision_layer = 15
+collision_mask = 15
+script = ExtResource("1_0rvku")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(-0.5, 4)
+shape = SubResource("RectangleShape2D_cptmn")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_otemy")
+animation = &"chegada"
+autoplay = "chegada"
+frame_progress = 0.983926
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]

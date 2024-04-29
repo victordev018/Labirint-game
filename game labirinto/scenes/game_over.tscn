@@ -1,0 +1,16 @@
+[gd_scene format=3 uid="uid://htfsnsoemnp0"]
+
+[node name="GameOver" type="Node2D"]
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+
+[node name="Label" type="Label" parent="CanvasLayer"]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+text = "   You Lost ._.  
+Time is over"
+horizontal_alignment = 1
+vertical_alignment = 1
