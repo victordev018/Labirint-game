@@ -1,9 +1,10 @@
-[gd_scene load_steps=7 format=3 uid="uid://g786tl6h6qcf"]
+[gd_scene load_steps=8 format=3 uid="uid://g786tl6h6qcf"]
 
 [ext_resource type="Script" path="res://scripts/fase_1.gd" id="1_6yxdv"]
 [ext_resource type="PackedScene" uid="uid://khd5ueqw7mka" path="res://scenes/player.tscn" id="2_h8mkf"]
 [ext_resource type="Texture2D" uid="uid://c6tvddml5a8ut" path="res://assets/Seasonal Tilesets/Seasonal Tilesets/4 - Winter World/Terrain (16 x 16).png" id="3_sg1qq"]
 [ext_resource type="PackedScene" uid="uid://7d4vvt0mpnjk" path="res://scenes/chegada.tscn" id="4_018dr"]
+[ext_resource type="PackedScene" uid="uid://cc76g37ukpw0w" path="res://scenes/more_time.tscn" id="5_g0jyf"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_e2da0"]
 texture = ExtResource("3_sg1qq")
@@ -166,6 +167,28 @@ autostart = true
 offset_right = 40.0
 offset_bottom = 23.0
 text = "level 3  --> 10 seconds"
+
+[node name="more time" type="Node2D" parent="."]
+
+[node name="moreTime3" parent="more time" instance=ExtResource("5_g0jyf")]
+
+[node name="moreTime5" parent="more time" instance=ExtResource("5_g0jyf")]
+position = Vector2(-98, -20)
+
+[node name="moreTime7" parent="more time" instance=ExtResource("5_g0jyf")]
+position = Vector2(192, -81)
+
+[node name="moreTime8" parent="more time" instance=ExtResource("5_g0jyf")]
+position = Vector2(304, -81)
+
+[node name="moreTime10" parent="more time" instance=ExtResource("5_g0jyf")]
+position = Vector2(175, 61)
+
+[node name="moreTime12" parent="more time" instance=ExtResource("5_g0jyf")]
+position = Vector2(318, 176)
+
+[node name="moreTime17" parent="more time" instance=ExtResource("5_g0jyf")]
+position = Vector2(497, -48)
 
 [connection signal="body_entered" from="chegada" to="." method="_on_chegada_body_entered"]
 [connection signal="timeout" from="TimerGame" to="." method="_on_timer_timeout"]

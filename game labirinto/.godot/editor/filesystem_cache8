@@ -1,5 +1,6 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1714415455
+::res://::1714700429
+game_over.tscn::PackedScene::530881523299442731::1714368085::0::1::::<><>::
 icon.svg::CompressedTexture2D::108352594471303299::1714316926::1714316936::1::::<><>::
 ::res://assets/::1714316993
 ::res://assets/Mini FX, Items & UI/::1714316992
@@ -137,13 +138,12 @@ Claw_Animations (16 x 16).png::CompressedTexture2D::7559900295419962220::1592409
 Hurt (32 x 32).png::CompressedTexture2D::6878500829663415019::1592409916::1714316997::1::::<><>::
 Movement_(Flip_image_back_and_forth) (32 x 32).png::CompressedTexture2D::1245003506420067036::1592409578::1714316997::1::::<><>::
 Reaching_to_Pinch (32 x 32).png::CompressedTexture2D::2406791363732475475::1592409764::1714316997::1::::<><>::
-::res://levels/::1714414392
-fase_1.tscn::PackedScene::9039078192964367927::1714414392::0::1::::<><>::res://scripts/fase_1.gd<>uid://c6tvddml5a8ut::::res://assets/Seasonal Tilesets/Seasonal Tilesets/4 - Winter World/Terrain (16 x 16).png<>uid://khd5ueqw7mka::::res://scenes/player.tscn<>uid://7d4vvt0mpnjk::::res://scenes/chegada.tscn
-fase_2.tscn::PackedScene::68751736127561362::1714414392::0::1::::<><>::res://scripts/fase_1.gd<>uid://khd5ueqw7mka::::res://scenes/player.tscn<>uid://c6tvddml5a8ut::::res://assets/Seasonal Tilesets/Seasonal Tilesets/4 - Winter World/Terrain (16 x 16).png<>uid://7d4vvt0mpnjk::::res://scenes/chegada.tscn<>uid://cc76g37ukpw0w::::res://scenes/more_time.tscn
-fase_3.tscn::PackedScene::489253186686043025::1714414392::0::1::::<><>::res://scripts/fase_1.gd<>uid://khd5ueqw7mka::::res://scenes/player.tscn<>uid://c6tvddml5a8ut::::res://assets/Seasonal Tilesets/Seasonal Tilesets/4 - Winter World/Terrain (16 x 16).png<>uid://7d4vvt0mpnjk::::res://scenes/chegada.tscn
-::res://scenes/::1714411760
+::res://levels/::1714700406
+fase_1.tscn::PackedScene::9039078192964367927::1714699774::0::1::::<><>::res://scripts/fase_1.gd<>uid://c6tvddml5a8ut::::res://assets/Seasonal Tilesets/Seasonal Tilesets/4 - Winter World/Terrain (16 x 16).png<>uid://khd5ueqw7mka::::res://scenes/player.tscn<>uid://7d4vvt0mpnjk::::res://scenes/chegada.tscn
+fase_2.tscn::PackedScene::68751736127561362::1714699950::0::1::::<><>::res://scripts/fase_1.gd<>uid://khd5ueqw7mka::::res://scenes/player.tscn<>uid://c6tvddml5a8ut::::res://assets/Seasonal Tilesets/Seasonal Tilesets/4 - Winter World/Terrain (16 x 16).png<>uid://7d4vvt0mpnjk::::res://scenes/chegada.tscn<>uid://cc76g37ukpw0w::::res://scenes/more_time.tscn
+fase_3.tscn::PackedScene::489253186686043025::1714700406::0::1::::<><>::res://scripts/fase_1.gd<>uid://khd5ueqw7mka::::res://scenes/player.tscn<>uid://c6tvddml5a8ut::::res://assets/Seasonal Tilesets/Seasonal Tilesets/4 - Winter World/Terrain (16 x 16).png<>uid://7d4vvt0mpnjk::::res://scenes/chegada.tscn<>uid://cc76g37ukpw0w::::res://scenes/more_time.tscn
+::res://scenes/::1714700429
 chegada.tscn::PackedScene::2254035557635609352::1714411760::0::1::::<><>::res://scripts/chegada.gd<>uid://b1bfjg0m1sca7::::res://assets/Mini FX, Items & UI/Common Pick-ups/Heart_Spin (16 x 16).png
-game_over.tscn::PackedScene::530881523299442731::1714368085::0::1::::<><>::
 more_time.tscn::PackedScene::4981173605341602520::1714401024::0::1::::<><>::uid://bfhcj55akctvy::::res://assets/Mini FX, Items & UI/Common Pick-ups/Wrapped_Presents (16 x 16).png<>res://scripts/more_time.gd
 player.tscn::PackedScene::716575862858047204::1714410148::0::1::::<><>::res://scripts/movimentacaoPlayer.gd<>uid://c8dpge2xl1ka2::::res://assets/Sprite Pack 2/Sprite Pack 2/2 - Mr. Mochi/Idle (32 x 32).png<>uid://4dymt5qlytt0::::res://assets/Sprite Pack 2/Sprite Pack 2/2 - Mr. Mochi/Running (32 x 32).png<>uid://ce5lti2y3vxvq::::res://assets/Sprite Pack 2/Sprite Pack 2/2 - Mr. Mochi/Jumping (32 x 32).png
 ::res://scripts/::1714414279

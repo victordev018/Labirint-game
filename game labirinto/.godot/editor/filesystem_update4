@@ -1,1 +1,6 @@
 res://levels/fase_1.tscn
+res://levels/fase_2.tscn
+res://levels/fase_3.tscn
+res://scripts/fase_1.gd
+res://scripts/chegada.gd
+res://levels/game_won.tscn

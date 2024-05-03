@@ -35,7 +35,7 @@ func _process(delta):
 func _on_timer_timeout():
 	labelTime.text = "Time Is Over!"
 	# chama a scene de game over
-	get_tree().change_scene_to_file("res://scenes/game_over.tscn")
+	get_tree().change_scene_to_file("res://levels/game_over.tscn")
 	
 	
 # executa quando o time init esgota

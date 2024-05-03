@@ -179,10 +179,7 @@ position = Vector2(30, 126)
 position = Vector2(194, -81)
 
 [node name="moreTime5" parent="More Time" instance=ExtResource("5_5odvk")]
-position = Vector2(237, -80)
-
-[node name="moreTime6" parent="More Time" instance=ExtResource("5_5odvk")]
-position = Vector2(321, 32)
+position = Vector2(383, 31)
 
 [node name="moreTime7" parent="More Time" instance=ExtResource("5_5odvk")]
 position = Vector2(319, 176)
@@ -190,17 +187,11 @@ position = Vector2(319, 176)
 [node name="moreTime8" parent="More Time" instance=ExtResource("5_5odvk")]
 position = Vector2(319, 176)
 
-[node name="moreTime9" parent="More Time" instance=ExtResource("5_5odvk")]
-position = Vector2(495, 47)
-
-[node name="moreTime10" parent="More Time" instance=ExtResource("5_5odvk")]
-position = Vector2(192, 114)
-
 [node name="moreTime11" parent="More Time" instance=ExtResource("5_5odvk")]
 position = Vector2(94, -80)
 
 [node name="moreTime12" parent="More Time" instance=ExtResource("5_5odvk")]
-position = Vector2(416, 63)
+position = Vector2(497, -50)
 
 [node name="moreTime4" parent="More Time" instance=ExtResource("5_5odvk")]
 position = Vector2(-47, -2)
