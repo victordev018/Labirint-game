@@ -1,10 +1,11 @@
+Marker2D
+AnimatedSprite2D
+CollisionShape2D
+Area2D
 Label
 CanvasLayer
 Node2D
 TileMap
-CollisionShape2D
-AnimatedSprite2D
-Area2D
 Timer
 RichTextLabel
 Sprite2D

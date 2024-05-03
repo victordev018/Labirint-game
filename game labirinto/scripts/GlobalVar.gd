@@ -1,5 +1,7 @@
 extends Node
 
+var playerNode = null
+
 # variável que controla quando o player pode se mover:
 var player_move: bool = false
 

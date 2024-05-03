@@ -12,6 +12,8 @@ extends Node2D
 # variável para acessar o label da fase:
 @onready var labelFase: Label = $label_fase/Label
 
+
+
 # executa qunado a cena é iniciada
 func _ready():
 	GlobalVar.levelNode = self; # levelNode recebe a fase

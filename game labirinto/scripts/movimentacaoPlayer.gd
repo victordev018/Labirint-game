@@ -7,6 +7,10 @@ class_name Player
 var direcao : Vector2 = Vector2.ZERO
 var speed : float = 75.0
 
+func _ready():
+	## quando inicia, o playerNode passa a ser o player
+	GlobalVar.playerNode = self;
+
 func _process(delta):
 	# chamando a movimnentação:
 	if GlobalVar.player_move: # verificando se há permissão para movimentar
