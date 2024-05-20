@@ -1,7 +1,7 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1714758818
+::res://::1716177249
 icon.svg::CompressedTexture2D::108352594471303299::1714316926::1714316936::1::::<><>::
-::res://assets/::1714316993
+::res://assets/::1715878573
 ::res://assets/Mini FX, Items & UI/::1714316992
 LICENSE.txt::TextFile::-1::1593868726::0::1::::<><>::
 ::res://assets/Mini FX, Items & UI/Common Pick-ups/::1714316998
@@ -38,6 +38,52 @@ Mouse_Icons_Outlined_Drop-shadowed (16 x 16).png::CompressedTexture2D::125890299
 Speech_Emotes (16 x 16).png::CompressedTexture2D::956659237031207668::1594071242::1714316998::1::::<><>::
 Timer_Coin_Numbers_Drop-shadowed (8 x 8).png::CompressedTexture2D::4653379527614126786::1594133632::1714316998::1::::<><>::
 Timer_Coin_Numbers_Outlined (8 x 8).png::CompressedTexture2D::7504144087340903148::1594133594::1714316998::1::::<><>::
+::res://assets/mystic_woods_free_2.2/::1715878573
+read_me.txt::TextFile::-1::1715086386::0::1::::<><>::
+::res://assets/mystic_woods_free_2.2/sprites/::1715878573
+::res://assets/mystic_woods_free_2.2/sprites/characters/::1715878601
+player.png::CompressedTexture2D::5979053470699762848::1715086386::1715878600::1::::<><>::
+README.txt::TextFile::-1::1715086576::0::1::::<><>::
+skeleton.png::CompressedTexture2D::5969804370866368706::1715086386::1715878601::1::::<><>::
+skeleton_swordless.png::CompressedTexture2D::7633436037317836321::1715086386::1715878601::1::::<><>::
+slime.png::CompressedTexture2D::3354430917031465012::1715086386::1715878601::1::::<><>::
+::res://assets/mystic_woods_free_2.2/sprites/objects/::1715878601
+chest_01.png::CompressedTexture2D::7885944711433746589::1715086386::1715878601::1::::<><>::
+chest_02.png::CompressedTexture2D::8052837740115003783::1715086386::1715878601::1::::<><>::
+objects.png::CompressedTexture2D::2492807581853528792::1715086386::1715878601::1::::<><>::
+rock_in_water-sheet.png::CompressedTexture2D::3983584583588749086::1715039113::1715878601::1::::<><>::
+rock_in_water_01-sheet.png::CompressedTexture2D::1887066179533755195::1715086386::1715878601::1::::<><>::
+rock_in_water_01.png::CompressedTexture2D::5625019966309723043::1715086386::1715878601::1::::<><>::
+rock_in_water_02.png::CompressedTexture2D::5165168327880942981::1715086386::1715878601::1::::<><>::
+rock_in_water_03.png::CompressedTexture2D::990950731762705617::1715086386::1715878601::1::::<><>::
+rock_in_water_04.png::CompressedTexture2D::1070747934999763860::1715086386::1715878601::1::::<><>::
+rock_in_water_05.png::CompressedTexture2D::3522774588430756256::1715086386::1715878601::1::::<><>::
+rock_in_water_06.png::CompressedTexture2D::7675670159273857265::1715086386::1715878601::1::::<><>::
+::res://assets/mystic_woods_free_2.2/sprites/particles/::1715878601
+dust_particles_01.png::CompressedTexture2D::6344417995378238974::1715086386::1715878601::1::::<><>::
+::res://assets/mystic_woods_free_2.2/sprites/tilesets/::1715878600
+decor_8x8.png::CompressedTexture2D::6600178061280954543::1715086386::1715878600::1::::<><>::
+decor_16x16.png::CompressedTexture2D::8501115119594057612::1715086386::1715878600::1::::<><>::
+fences.png::CompressedTexture2D::1574539236330860888::1715086386::1715878600::1::::<><>::
+grass.png::CompressedTexture2D::2236019168575833503::1715086386::1715878600::1::::<><>::
+plains.png::CompressedTexture2D::4717744967355157562::1715086386::1715878600::1::::<><>::
+water1.png::CompressedTexture2D::5816032812690879061::1715086386::1715878600::1::::<><>::
+water2.png::CompressedTexture2D::7004585393087789791::1715086386::1715878600::1::::<><>::
+water3.png::CompressedTexture2D::1355174513717480762::1715086386::1715878600::1::::<><>::
+water4.png::CompressedTexture2D::8675003055964014919::1715086386::1715878600::1::::<><>::
+water5.png::CompressedTexture2D::414306615058074077::1715086386::1715878600::1::::<><>::
+water6.png::CompressedTexture2D::9046625956934793710::1715086386::1715878600::1::::<><>::
+water-sheet.png::CompressedTexture2D::8741084224795946797::1715086386::1715878600::1::::<><>::
+water_decorations.png::CompressedTexture2D::2095734198107051076::1715086386::1715878600::1::::<><>::
+water_lillies.png::CompressedTexture2D::3851579018979174947::1715086386::1715878600::1::::<><>::
+::res://assets/mystic_woods_free_2.2/sprites/tilesets/floors/::1715878601
+carpet.png::CompressedTexture2D::6913561379584726326::1715086386::1715878601::1::::<><>::
+flooring.png::CompressedTexture2D::362795860029015025::1715086386::1715878601::1::::<><>::
+wooden.png::CompressedTexture2D::4556662232589630003::1715086386::1715878600::1::::<><>::
+::res://assets/mystic_woods_free_2.2/sprites/tilesets/walls/::1715878600
+walls.png::CompressedTexture2D::7411520408108783326::1715086386::1715878600::1::::<><>::
+wooden_door.png::CompressedTexture2D::7086859026779866335::1715086386::1715878600::1::::<><>::
+wooden_door_b.png::CompressedTexture2D::7632089755640233520::1715086386::1715878600::1::::<><>::
 ::res://assets/Seasonal Tilesets/::1714316992
 ::res://assets/Seasonal Tilesets/Seasonal Tilesets/::1714319221
 1 - Foreground_scenery.png::CompressedTexture2D::2977219497021393907::1594664942::1714319172::1::::<><>::
@@ -137,19 +183,22 @@ Claw_Animations (16 x 16).png::CompressedTexture2D::7559900295419962220::1592409
 Hurt (32 x 32).png::CompressedTexture2D::6878500829663415019::1592409916::1714316997::1::::<><>::
 Movement_(Flip_image_back_and_forth) (32 x 32).png::CompressedTexture2D::1245003506420067036::1592409578::1714316997::1::::<><>::
 Reaching_to_Pinch (32 x 32).png::CompressedTexture2D::2406791363732475475::1592409764::1714316997::1::::<><>::
-::res://levels/::1714703068
-fase_1.tscn::PackedScene::9039078192964367927::1714703067::0::1::::<><>::res://scripts/fase_1.gd<>uid://c6tvddml5a8ut::::res://assets/Seasonal Tilesets/Seasonal Tilesets/4 - Winter World/Terrain (16 x 16).png<>uid://khd5ueqw7mka::::res://scenes/player.tscn<>uid://7d4vvt0mpnjk::::res://scenes/chegada.tscn
-fase_2.tscn::PackedScene::68751736127561362::1714703068::0::1::::<><>::res://scripts/fase_1.gd<>uid://khd5ueqw7mka::::res://scenes/player.tscn<>uid://c6tvddml5a8ut::::res://assets/Seasonal Tilesets/Seasonal Tilesets/4 - Winter World/Terrain (16 x 16).png<>uid://7d4vvt0mpnjk::::res://scenes/chegada.tscn<>uid://cc76g37ukpw0w::::res://scenes/more_time.tscn
-fase_3.tscn::PackedScene::489253186686043025::1714703068::0::1::::<><>::res://scripts/fase_1.gd<>uid://khd5ueqw7mka::::res://scenes/player.tscn<>uid://c6tvddml5a8ut::::res://assets/Seasonal Tilesets/Seasonal Tilesets/4 - Winter World/Terrain (16 x 16).png<>uid://7d4vvt0mpnjk::::res://scenes/chegada.tscn<>uid://cc76g37ukpw0w::::res://scenes/more_time.tscn
+::res://levels/::1715888514
+fase_1.tscn::PackedScene::9039078192964367927::1715888513::0::1::::<><>::res://scripts/fase_1.gd<>uid://c6tvddml5a8ut::::res://assets/Seasonal Tilesets/Seasonal Tilesets/4 - Winter World/Terrain (16 x 16).png<>uid://khd5ueqw7mka::::res://scenes/player.tscn<>uid://7d4vvt0mpnjk::::res://scenes/chegada.tscn
+fase_2.tscn::PackedScene::68751736127561362::1715888514::0::1::::<><>::res://scripts/fase_1.gd<>uid://khd5ueqw7mka::::res://scenes/player.tscn<>uid://c6tvddml5a8ut::::res://assets/Seasonal Tilesets/Seasonal Tilesets/4 - Winter World/Terrain (16 x 16).png<>uid://7d4vvt0mpnjk::::res://scenes/chegada.tscn<>uid://cc76g37ukpw0w::::res://scenes/more_time.tscn
+fase_3.tscn::PackedScene::489253186686043025::1715888514::0::1::::<><>::res://scripts/fase_1.gd<>uid://khd5ueqw7mka::::res://scenes/player.tscn<>uid://c6tvddml5a8ut::::res://assets/Seasonal Tilesets/Seasonal Tilesets/4 - Winter World/Terrain (16 x 16).png<>uid://7d4vvt0mpnjk::::res://scenes/chegada.tscn<>uid://cc76g37ukpw0w::::res://scenes/more_time.tscn<>res://scripts/teletransporte.gd<>uid://buc4hddtc2xpq::::res://assets/Mini FX, Items & UI/Effects/Cloud_Poof (16 x 16).png
 game_over.tscn::PackedScene::530881523299442731::1714368085::0::1::::<><>::
-game_won.tscn::PackedScene::6418375518981432936::1714703068::0::1::::<><>::
-::res://scenes/::1714700429
+game_won.tscn::PackedScene::6418375518981432936::1714759245::0::1::::<><>::
+::res://scenes/::1715890249
 chegada.tscn::PackedScene::2254035557635609352::1714411760::0::1::::<><>::res://scripts/chegada.gd<>uid://b1bfjg0m1sca7::::res://assets/Mini FX, Items & UI/Common Pick-ups/Heart_Spin (16 x 16).png
-more_time.tscn::PackedScene::4981173605341602520::1714401024::0::1::::<><>::uid://bfhcj55akctvy::::res://assets/Mini FX, Items & UI/Common Pick-ups/Wrapped_Presents (16 x 16).png<>res://scripts/more_time.gd
-player.tscn::PackedScene::716575862858047204::1714410148::0::1::::<><>::res://scripts/movimentacaoPlayer.gd<>uid://c8dpge2xl1ka2::::res://assets/Sprite Pack 2/Sprite Pack 2/2 - Mr. Mochi/Idle (32 x 32).png<>uid://4dymt5qlytt0::::res://assets/Sprite Pack 2/Sprite Pack 2/2 - Mr. Mochi/Running (32 x 32).png<>uid://ce5lti2y3vxvq::::res://assets/Sprite Pack 2/Sprite Pack 2/2 - Mr. Mochi/Jumping (32 x 32).png
-::res://scripts/::1714755243
+more_time.tscn::PackedScene::4981173605341602520::1715888514::0::1::::<><>::uid://bfhcj55akctvy::::res://assets/Mini FX, Items & UI/Common Pick-ups/Wrapped_Presents (16 x 16).png<>res://scripts/more_time.gd
+player.tscn::PackedScene::716575862858047204::1715888514::0::1::::<><>::res://scripts/movimentacaoPlayer.gd<>uid://c8dpge2xl1ka2::::res://assets/Sprite Pack 2/Sprite Pack 2/2 - Mr. Mochi/Idle (32 x 32).png<>uid://4dymt5qlytt0::::res://assets/Sprite Pack 2/Sprite Pack 2/2 - Mr. Mochi/Running (32 x 32).png<>uid://ce5lti2y3vxvq::::res://assets/Sprite Pack 2/Sprite Pack 2/2 - Mr. Mochi/Jumping (32 x 32).png
+player_2.tscn::PackedScene::5657106216757553372::1715890249::0::1::::<><>::res://scripts/player_2.gd<>uid://crgkewrbn5b5a::::res://assets/mystic_woods_free_2.2/sprites/characters/player.png
+::res://scripts/::1715888513
 chegada.gd::GDScript::-1::1714701495::0::1::::<>Area2D<>::
-fase_1.gd::GDScript::-1::1714755243::0::1::::<>Node2D<>::
-GlobalVar.gd::GDScript::-1::1714413838::0::1::::<>Node<>::
+fase_1.gd::GDScript::-1::1714762776::0::1::::<>Node2D<>::
+GlobalVar.gd::GDScript::-1::1714763303::0::1::::<>Node<>::
 more_time.gd::GDScript::-1::1714413763::0::1::::<>Area2D<>::
-movimentacaoPlayer.gd::GDScript::-1::1714413664::0::1::::Player<>CharacterBody2D<>::
+movimentacaoPlayer.gd::GDScript::-1::1714763629::0::1::::Player<>CharacterBody2D<>::
+player_2.gd::GDScript::-1::1715888513::0::1::::<>CharacterBody2D<>::
+teletransporte.gd::GDScript::-1::1714763811::0::1::::Teleporter<>Area2D<>::

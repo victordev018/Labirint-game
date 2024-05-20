@@ -1,9 +1,7 @@
 res://levels/fase_1.tscn
 res://levels/fase_2.tscn
 res://levels/fase_3.tscn
-res://levels/game_won.tscn
-res://scripts/teletransporte.gd
 res://scenes/player.tscn
-res://scripts/fase_1.gd
-res://scripts/GlobalVar.gd
-res://scripts/movimentacaoPlayer.gd
+res://scenes/more_time.tscn
+res://scenes/player_2.tscn
+res://scripts/chegada.gd

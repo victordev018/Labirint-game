@@ -1,6 +1,7 @@
-Marker2D
-AnimatedSprite2D
 CollisionShape2D
+AnimatedSprite2D
+CharacterBody2D
+Marker2D
 Area2D
 Label
 CanvasLayer
@@ -10,4 +11,3 @@ Timer
 RichTextLabel
 Sprite2D
 Camera2D
-CharacterBody2D
